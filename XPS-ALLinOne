@@ -827,9 +827,11 @@ Function Invoke-WPFFormVariables {
 	Write-Host " /___/\  \ |____|    /_______  /"
     Write-Host "       \_/                   \/ "
 	Write-Host ""
+	Write-Host ""
 	Write-Host "==Xilium Professional Services=="
 	Write-Host "=======Installation Tool========="
-
+	Write-Host ""
+	Write-Host ""
 
     #====DEBUG GUI Elements====
 
