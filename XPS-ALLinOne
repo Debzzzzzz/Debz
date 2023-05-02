@@ -1617,7 +1617,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
                                 
                                 <CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
-				<CheckBox Name="Installnmap" Content="TeamViewer" Margin="5,0"/>
+				<CheckBox Name="Installnmap" Content="NMAP" Margin="5,0"/>
                                 
                                 <Button Name="install" Background="AliceBlue" Content="Start Install" HorizontalAlignment = "Left" Margin="5,0" Padding="20,5" Width="150" ToolTip="Install all checked programs"/>
                                 <Button Name="InstallUpgrade" Background="AliceBlue" Content="Update all Apps" HorizontalAlignment = "Left" Margin="5,0,0,5" Padding="20,5" Width="150" ToolTip="Upgrade All Existing Programs on System"/>
