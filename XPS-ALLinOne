@@ -818,15 +818,17 @@ Function Invoke-WPFFormVariables {
     #>
     #If ($global:ReadmeDisplay -ne $true) { Write-Host "If you need to reference this display again, run Get-FormVariables" -ForegroundColor Yellow; $global:ReadmeDisplay = $true }
 
-	
 	Write-Host ""
-    Write-Host " ____  _____________   _________"
-	Write-Host " \   \/  /\______   \ /   _____/"
-	Write-Host "  \     /  |     ___/ \_____  \ "
-	Write-Host "  /     \  |    |     /        \"
-	Write-Host " /___/\  \ |____|    /_______  /"
-    Write-Host "       \_/                   \/ "
-	Write-Host ""
+Write-Host "__/\\\_______/\\\__/\\\\\\\\\\\\\_______/\\\\\\\\\\\___"        
+Write-Host " _\///\\\___/\\\/__\/\\\/////////\\\___/\\\/////////\\\_"       
+Write-Host "  ___\///\\\\\\/____\/\\\_______\/\\\__\//\\\______\///__"      
+Write-Host "   _____\//\\\\______\/\\\\\\\\\\\\\/____\////\\\_________"     
+Write-Host "    ______\/\\\\______\/\\\/////////_________\////\\\______"    
+Write-Host "     ______/\\\\\\_____\/\\\_____________________\////\\\___"   
+Write-Host "      ____/\\\////\\\___\/\\\______________/\\\______\//\\\__"  
+Write-Host "       __/\\\/___\///\\\_\/\\\_____________\///\\\\\\\\\\\/___" 
+Write-Host "        _\///_______\///__\///________________\///////////_____"
+Write-Host ""
 	Write-Host "==Xilium Professional Services=="
 	Write-Host "=======Installation Tool========="
 	Write-Host ""
