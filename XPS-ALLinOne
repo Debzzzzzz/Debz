@@ -911,7 +911,7 @@ function Invoke-WPFInstall {
 
             $ButtonType = [System.Windows.MessageBoxButton]::OK
             $MessageboxTitle = "Installs are Finished "
-            $Messageboxbody = ("Done")
+            $Messageboxbody = ("Installation Completed")
             $MessageIcon = [System.Windows.MessageBoxImage]::Information
         
             [System.Windows.MessageBox]::Show($Messageboxbody, $MessageboxTitle, $ButtonType, $MessageIcon)
@@ -1495,7 +1495,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
         mc:Ignorable="d"
         Background="#777777"
         WindowStartupLocation="CenterScreen"
-        Title="XPS All in one installers" Height="550" Width="400">
+        Title="XPS All in one installer" Height="550" Width="200">
     <Window.Resources>
         <Style x:Key="ToggleSwitchStyle" TargetType="CheckBox">
             <Setter Property="Template">
