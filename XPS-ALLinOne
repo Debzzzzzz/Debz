@@ -1495,7 +1495,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
         mc:Ignorable="d"
         Background="#777777"
         WindowStartupLocation="CenterScreen"
-        Title="XPS All in one installer" Height="550" Width="280">
+        Title="XPS All in one installer" Height="550" Width="270">
     <Window.Resources>
         <Style x:Key="ToggleSwitchStyle" TargetType="CheckBox">
             <Setter Property="Template">
@@ -1579,8 +1579,8 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <DockPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="0" Width="175">
-                    <Image Height="50" Width="100" Name="Icon" SnapsToDevicePixels="True" Source="https://assets.bossjob.com/companies/1925/logo/wN89enxi2bAXeQusvjQhZcA25NWTL6sdoEmdWHtR.png" Margin="0,10,0,10"/>
-                    <Button Content="Installers" HorizontalAlignment="Left" Height="40" Width="60" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
+                    <Image Height="50" Width="100" Name="Icon" SnapsToDevicePixels="True" Source="https://assets.website-files.com/6239e76e4f7d2fd833cf5bc7/62cffc36cd5cb4f5b75ed89d_Xilium-01-1-p-500.png" Margin="-0,10,0,10"/>
+                    
                     
                 </DockPanel>
                 <TabControl Grid.Row="1" Padding="-5" Name="TabNav" Background="#222222">
@@ -1597,33 +1597,19 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
                             <StackPanel Background="#777777" SnapsToDevicePixels="False" Grid.Column="0" Margin="10">
-                                <Label Content="Browsers" FontSize="16" Margin="5,0"/>
-                                
-                                <CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
-
-
-                                
-                            
-                                
-
+                                <Label Content="Browsers" FontSize="16" Margin="5,0"/>                            
+                                <CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>                                                            
                                 <Label Content="Document" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
                                 <CheckBox Name="Installfoxpdf" Content="Foxit PDF" Margin="5,0"/>
                                 
-                            
-
-
-                               
-
-
-
                                 <Label Content="Utilities" FontSize="16" Margin="5,0"/>
-								<CheckBox Name="Installauthy" Content="Authy" Margin="5,0"/>
-                                <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
-                                
+				<CheckBox Name="Installauthy" Content="Authy" Margin="5,0"/>
+                                <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>                
                                 <CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
 				<CheckBox Name="Installnmap" Content="NMAP" Margin="5,0"/>
-                                
+				
+                                <Label Content="" FontSize="1" Margin="1,0"/>
                                 <Button Name="install" Background="AliceBlue" Content="Start Install" HorizontalAlignment = "Left" Margin="5,0" Padding="20,5" Width="150" ToolTip="Install all checked programs"/>
                                 <Button Name="InstallUpgrade" Background="AliceBlue" Content="Update all Apps" HorizontalAlignment = "Left" Margin="5,0,0,5" Padding="20,5" Width="150" ToolTip="Upgrade All Existing Programs on System"/>
 
